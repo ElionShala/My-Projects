@@ -1,4 +1,4 @@
-var choice = "paper" // Change this to your choice "rock", "paper", or "sissors"
+var choice = "rock" // Change this to your choice "rock", "paper", or "sissors"
 
 // Dont touch
 var random = Math.floor(Math.random() * 3) + 1;
@@ -13,6 +13,7 @@ if (choice == "rock") {
     number = 3;
 } else {
     console.log("Wrong Choice!")
+    return 0;
 }
 
 if (random == 1) {
